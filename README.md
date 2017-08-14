@@ -3,6 +3,10 @@ Q Learning EV3 Robot Learning How to Walk
 
 _This was a Course Project for the CMPUT609 - Reinforcement Learning_
 
+## Dependency 
+This project utilizes the `lejos` plugin in `eclipse` IDE
+
+# Report 
 ## Task:
 
 Our task is to train a two degrees of freedom armed robot with a passive wheel base, to learn to moveforward or backward. 
