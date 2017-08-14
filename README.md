@@ -38,7 +38,7 @@ Both dimensions of states are then flattened into a state vector.
 Our action space is a two dimensional space as well. Both hip and knee actions includes up hold and down. Both dimensions of actions are then flattened into an action vector as well.
 
 ## State/Action Value
-A Q matrix is created with rows representing the states and columns representing the actions. Using both Q Learning and Q(ƛ) we managed to converge to good result.
+A Q matrix is created with rows representing the states and columns representing the actions. Using Q Learning we managed to converge to good result.
 
 ## Challenge:
 When the robot is taking an action, it shakes which adds noise to the reward signal. One approach we are going to use to solve the problem is to take the mean distance change during one time step. 
