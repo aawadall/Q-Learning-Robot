@@ -52,6 +52,8 @@ public class Arms {
 			else
 				invalidAction = INVALID;
 			break;
+			default:
+				break;
 		}
 		LCD.clear();
 		LCD.drawString("St #"+Arms.getState()+" MA"+a1+" MB"+a2,1, 0);
