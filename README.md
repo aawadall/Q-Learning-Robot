@@ -56,7 +56,7 @@ Sample part is used to sample state and actions which is generated in the learni
 Learning part is used to let our robot learn the optimal policy to reach the goal. `Policy.java`
 
 ## Result:
-A video record is used to show the result.
+A [video](https://www.youtube.com/watch?v=aTpJJR1WBuc) record is used to show the result.
 So far the robot seems to prefer the use of inertia rather than the use of traction of the end effector on the ground in case we use large step angles and a wheel (large or small) 
 We also noticed that a large state space is not fully learned before the robot runs out of battery.
 Finally, the robot manages to solve the reverse problem (Move backward) faster than the original problem (Move forward). 
